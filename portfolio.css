@@ -16,7 +16,6 @@ html {
 
 #navbar {
     display: flex;
-    position: relative;
     align-items: center;
     top: 0px;
 }
@@ -109,7 +108,7 @@ html {
     font-family: 'Bree Serif', serif;
 }
 
-.linkwala {
+.linkwalahai {
     text-decoration: none;
     color: cornsilk;
 }
