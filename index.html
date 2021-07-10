@@ -7,15 +7,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="portfolio.css">
     <link rel="stylesheet" href="portfoliophone.css">
+    <script src="portfolio.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bree+Serif&display=swap" rel="stylesheet">
-    <title>portfolio </title>
+    <title>Anish's Portfolio </title>
 
 </head>
 
 <body>
+    <script>
+        alert("Welcome to Anish's Portfolio");
+    </script>
     <nav id="navbar">
         <div id="logo">
-            <img src="anish.png" alt="anish">
+            <img src="image/logo.jpg" alt="anish">
         </div>
 
         <ul>
@@ -37,7 +41,7 @@
         <h1 class="maincenter">Anish Pokharel</h1>
         <p>Student</p>
         <!-- <p>Language Instructor</p> -->
-        <button class="btn" href="#about-container"> About ME </button>
+        <button class="btn" href="#about-container"> <a href="#about-container"> About ME</a> </button>
     </section>
 
 
@@ -48,22 +52,20 @@
             <div class="box">
                 <img src="image/websitedesignpng.png" alt="websitedesignpng">
                 <h2 class="h-second">Website-design</h2>
-                <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quia ut dolore aliquam nostrum magni dolorem incidunt assumenda cum dicta laboriosam est quod explicabo neque officiis, ipsa, recusandae saepe debitis. Sint officiis error nobis
-                    autem vero molestias qui cum!</p>
+                <p class="center">A website should be designed for the people who will use it, so that's exactly what I do. User focused design should be the primary goal of any website.</p>
 
             </div>
             <div class="box">
                 <img src="image/development.png" alt="development">
                 <h2 class="h-second"> Website-Developmnet </h2>
-                <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quia ut dolore aliquam nostrum magni dolorem incidunt assumenda cum dicta laboriosam est quod explicabo neque officiis, ipsa, recusandae saepe debitis. Sint officiis error nobis
-                    autem vero molestias qui cum!</p>
+                <p class="center">Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.</p>
 
             </div>
             <div class="box">
                 <img src="image/deutsch.png" alt="deutsch">
                 <h2 class="h-second"> Language Instructor </h2>
-                <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quia ut dolore aliquam nostrum magni dolorem incidunt assumenda cum dicta laboriosam est quod explicabo neque officiis, ipsa, recusandae saepe debitis. Sint officiis error nobis
-                    autem vero molestias qui cum!</p>
+                <p class="center">Languages don't limit our ability to perceive the world or to think about the world, rather, they focus our attention, and thought on specific aspects of the world. There are so many more examples of how language influences perception,
+                    like with regards to gender and describing events.</p>
 
             </div>
         </div>
@@ -95,7 +97,7 @@
     <section id="contact">
         <h1 class="maincenter">Contact Us</h1>
         <div id="contact-box">
-            <form action="">
+            <form method="POST" action="conect.php">
                 <div class="form-group">
                     <label for="name">Name: </label>
                     <input type="text" name="name" id="name" placeholder="Enter your name">
@@ -113,7 +115,7 @@
                     <textarea name="message" id="message" cols="30" rows="10"></textarea>
                 </div>
 
-                <button type="submit " class="btn">Submit
+                <button type="submit " class="btn" value="Send Message">Submit
 
                     </button>
 
@@ -125,6 +127,10 @@
             </form>
         </div>
     </section>
+
+
+
+
     <footer>
         <div class="center">
             Copyright &copy; Anish Pokharel All rights reserved!

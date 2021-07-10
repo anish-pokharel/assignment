@@ -16,6 +16,7 @@ html {
 
 #navbar {
     display: flex;
+    position: fixed;
     align-items: center;
     top: 0px;
 }
@@ -23,7 +24,7 @@ html {
 #navbar ::before {
     content: "";
     /* background-color: black; */
-    position: absolute;
+    position: fixed;
     top: 0px;
     left: 0px;
     height: 100%;
